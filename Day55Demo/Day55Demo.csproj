@@ -67,12 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="10ListGroup.html" />
+    <Content Include="11Popover.html" />
+    <Content Include="12nav.html" />
+    <Content Include="13Pagination.html" />
     <Content Include="1Accordion.html" />
     <Content Include="2Alert.html" />
     <Content Include="3Badge.html" />
     <Content Include="4Breadcrumb.html" />
     <Content Include="5Button.html" />
     <Content Include="6Collapse.html" />
+    <Content Include="7Card.html" />
+    <Content Include="8Carousel.html" />
+    <Content Include="9DropDown.html" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-grid.rtl.css" />
@@ -89,12 +96,33 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap.rtl.css" />
     <Content Include="css\bootstrap.rtl.min.css" />
+    <Content Include="img\1000x200.png" />
+    <Content Include="img\100x100.png" />
+    <Content Include="img\1200x600-danger.png" />
+    <Content Include="img\1200x600-info.png" />
+    <Content Include="img\1200x600-success.png" />
+    <Content Include="img\1200x600-warning.png" />
+    <Content Include="img\1200x600.png" />
+    <Content Include="img\200x100.png" />
+    <Content Include="img\200x200.png" />
+    <Content Include="img\200x2000.png" />
+    <Content Include="img\200x600.png" />
+    <Content Include="img\20x20.png" />
+    <Content Include="img\300x150.png" />
+    <Content Include="img\300x200.png" />
+    <Content Include="img\400x200.png" />
+    <Content Include="img\50x50.png" />
+    <Content Include="img\600x200.png" />
+    <Content Include="img\600x400.png" />
+    <Content Include="img\clipboard.png" />
+    <Content Include="img\codepen.png" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.esm.js" />
     <Content Include="js\bootstrap.esm.min.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="TextFile1.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +151,7 @@
     <Content Include="js\bootstrap.esm.min.js.map" />
     <Content Include="js\bootstrap.js.map" />
     <Content Include="js\bootstrap.min.js.map" />
+    <Content Include="img\.DS_Store" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
