@@ -71,6 +71,7 @@
     <Content Include="11Popover.html" />
     <Content Include="12nav.html" />
     <Content Include="13Pagination.html" />
+    <Content Include="14NavBar.html" />
     <Content Include="1Accordion.html" />
     <Content Include="2Alert.html" />
     <Content Include="3Badge.html" />
@@ -159,6 +160,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assignment\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

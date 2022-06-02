@@ -9,7 +9,6 @@ Cards
 Carousels
 Dropdown
 List Group
-Popover
 Navs
 Pagination
 
@@ -19,3 +18,4 @@ Modals
 Progress Bars
 Progress Bar Snippet
 Scrollspy
+Popover

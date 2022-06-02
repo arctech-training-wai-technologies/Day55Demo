@@ -9,6 +9,33 @@
     <title></title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover"
+                        data-bs-content="Some popover text herer" title="This is the title">
+                    Click to open popover
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="popover"
+                        data-bs-content="Second - Some popover text herer" title="This is the second title">
+                    Click to open second popover
+                </button>
+            </div>
+        </div>
+       
+    </div>
+    <script type="text/javascript">
+        var htmlElements = document.querySelectorAll('[data-bs-toggle="popover"]');
+        //var popoverTriggerList = Array.prototype.slice.call(htmlElements);
+        //var popoverTriggerList = [].prototype.slice.call(htmlElements);
+        var popoverTriggerList = Array.from(htmlElements);
+
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEL) {
+            return new bootstrap.Popover(popoverTriggerEL)
+        });
+
+    </script>
 </body>
 </html>
